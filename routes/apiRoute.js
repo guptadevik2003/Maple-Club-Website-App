@@ -63,7 +63,6 @@ router.post('/bot/pingme', JsonWebToken.isValidToken, async (req, res) => {
     let updateData = await webBotsUptime.findOneAndUpdate({ botUserId: botUserId }, {
         lastPingedTimestamp: pingTimestamp
     })
-    console.log(updateData)
     return res.json({
         success: true,
         data: {
