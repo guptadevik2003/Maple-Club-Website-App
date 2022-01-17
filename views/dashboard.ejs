@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Preview Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MapleClub | Dashboard">
+    <meta property="og:description" content="Maple Club will notify you when one of your Discord bots you added go offline.">
+    <meta property="og:url" content="https://mapleclub.top">
+    <meta property="og:site_name" content="Maple Club">
+    <meta property="og:image" content="https://mapleclub.top/assets/mapleClubSquare.jpg">
+
+    <title>MapleClub | Dashboard</title>
+    
+    <!-- Arc.io Widget Script -->
+    <script async src="https://arc.io/widget.min.js#BHBrBkL3"></script>
+
+    <!-- Local Files -->
+    <link rel="icon" href="/assets/mapleClubCircle.png" type="image/png">
+    <link rel="stylesheet" href="/styles/dashboard.css" type="text/css">
+    <link rel="stylesheet" href="/styles/devikgupta-footer.css" type="text/css">
+    <link rel="stylesheet" href="/styles/dashboard-navbar.css" type="text/css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+</head>
+<body>
+
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class="fab fa-google-plus"></i>
+            <span class="logo_name">MapleClub</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href=""><i class="fas fa-th-large"></i></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero_section container">
+    
+    </div>
+
+    <!-- Footer Section -->
+    <!-- <div class="footer_section container">
+        <p>By Devik_NotFound#2695 | © 2022</p>
+    </div> -->
+
+    <!-- Javascript Files -->
+    <script>
+        var userJSON = `<%- JSON.stringify(user) %>`
+        var guildsJSON = `<%- JSON.stringify(guilds) %>`
+    </script>
+    <script src="/javascripts/dashboard.js"></script>
+
+</body>
+</html>
